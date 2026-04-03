@@ -1,6 +1,6 @@
 # 🖥️ Smart Home Monitor — HPS C Supervisor
 
-Part of the **IoT Smart Home Monitor** project built on a DE10-Nano (Intel Cyclone V SoC) for the *Electronics for Embedded Systems* course at Politecnico di Torino (A.Y. 2024–2025).
+Part of the **IoT Smart Home Monitor** project built on a DE10-Nano (Intel Cyclone V SoC) for the *Electronics for Embedded Systems* course at Politecnico di Torino (A.Y. 2025–2026).
 
 This component runs on the ARM Cortex-A9 HPS (Hard Processor System) under embedded Linux. It polls sensor data from the FPGA fabric via the Lightweight AXI Bridge, compensates raw readings using hardware calibration coefficients, publishes to an MQTT broker over WiFi (through an ESP32), and sends SMS alerts via a SIM800L GSM module.
 
